@@ -2,11 +2,11 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "stylesheets"
-sass_dir = "sass"
-images_dir = "img"
-javascripts_dir = "javascripts"
+http_path = '/'
+css_dir = 'stylesheets'
+sass_dir = 'sass'
+images_dir = 'img'
+javascripts_dir = 'javascripts'
 
 require 'bootstrap-sass'
 # You can select your preferred output style here (can be overridden via the command line):
@@ -17,7 +17,6 @@ require 'bootstrap-sass'
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
-
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:

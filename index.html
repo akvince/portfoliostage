@@ -17,17 +17,17 @@
   <!-- permet le lancement de la fonction de scroll -->
 </head>
 
-<body>
+<body id="home">
   <div class="container">
 
     <!-- ============================Navbar========================== -->
 
     <nav>
       <ul>
-        <li id="home"><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <img src="img/photo2.jpg" alt="portrait" />
+        <li><a href="#home">Home</a></li>
         <li><a href="#apropos">A propos</a></li>
+        <img src="img/photo2.jpg" alt="portrait" />
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -53,6 +53,27 @@
           des applications sous Rails et Meteor.JS.
         </p> -->
       </ul>
+      <a href="#portfolio">
+        <button type="button" name="button">Mes travaux</button>
+      </a>
+    </div>
+    <hr>
+
+    <!-- =======================================A propos======================================== -->
+
+    <div id="apropos" class="apropos">
+      <h4>A propos</h4>
+      <h5>Qui suis-je?</h5>
+      <p>
+        Développeur front-end auto formé a Simplon Roubaix, attiré par les métiers du numérique et les nouvelles technologie, Simplon m'a permis d'apprendre et d'échangé sur ce domaine, ayant pu travailler sur des techno comme HTML5, CSS3, javascripts, j'ai aussi
+        eu la chance de découvrir le back-end avec Ruby et Ruby on rails. Voulant me spécialisé en Front je me suis mis a Sass et Compass pour pouvoir améliorer mon travail. Passioné aussi par la photographie et attiré par le graphisme, j'aimerai sur
+        le long termes me spécialisé sur le web design.
+      </p>
+      <div class="CV">
+        <a href="http://akvince.github.io/curriculum-vitae/" target="_blank">
+          <button type="button" name="button">CV</button>
+        </a>
+      </div>
     </div>
     <hr>
 
@@ -62,38 +83,42 @@
       <div class="row">
         <h4>Portfolio</h4>
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="http://akvince.github.io/termunix/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/termunix.jpg" class="img-responsive" alt="">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <a href="http://francoisdefever.github.io/startup-weekendrbx016/index.html" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/yestour.png" class="img-responsive" alt="">
           </a>
           <p>HTML/CSS</p>
-          <p class="tisite">Cheat sheet terminal</p>
+          <p class="tisite">YES Tour Africa</p>
+          <p>Coup de coeur startup week end Roubaix 2016</p>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/chgit/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/chgit.jpg" class="img-responsive" alt="">
+          <a href="http://akvince.github.io/Crafty.Sphere//" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/crafty.jpg" class="img-responsive" alt="">
           </a>
-          <p>HTML/CSS</p>
-          <p class="tisite">Cheat sheet git</p>
+          <p>HTML/CSS
+            <p>
+              <p class="tisite">Crafty Sphere</p>
+              <p>Vainqueur challenge équipe interpromo</p>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/racunix/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/racunix.jpg" class="img-responsive" alt="">
+          <a href="http://simplon-roubaix.github.io/Portfolio-VA/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/site1.jpg" class="img-responsive" alt="">
           </a>
           <p>HTML/CSS</p>
-          <p class="tisite">Cheat sheet unix</p>
+          <p class="tisite">Portfolio Final Fantasy</p>
+          <p>Portfolio exercice binome</p>
         </div>
 
         <div class="clearfix"></div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/chvim/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/chvim.jpg" class="img-responsive" alt="">
+          <a href="http://akvince.github.io/skillcode/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/skillcode.jpg" class="img-responsive" alt="">
           </a>
           <p>HTML/CSS</p>
-          <p class="tisite">Cheat sheet vim</p>
+          <p class="tisite">Skillcode</p>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
@@ -131,6 +156,7 @@
           <p>Finaliste interpromo</p>
         </div>
 
+
         <div class="col-lg-4 col-md-4 col-sm-6">
           <a href="http://akvince.github.io/trcg/" target="_blank" class="portfolio-box">
             <img src="img/portfolio/trcg.jpg" class="img-responsive" alt="">
@@ -142,33 +168,12 @@
         <div class="clearfix"></div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/skillcode/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/skillcode.jpg" class="img-responsive" alt="">
+          <a href="http://akvince.github.io/chvim/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/chvim.jpg" class="img-responsive" alt="">
           </a>
           <p>HTML/CSS</p>
-          <p class="tisite">Skillcode</p>
+          <p class="tisite">Cheat sheet vim</p>
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/Portfolio-VA/" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/site1.jpg" class="img-responsive" alt="">
-          </a>
-          <p>HTML/CSS</p>
-          <p class="tisite">Portfolio Final Fantasy</p>
-          <p>Portfolio exercice binome</p>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://akvince.github.io/Crafty.Sphere//" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/crafty.jpg" class="img-responsive" alt="">
-          </a>
-          <p>HTML/CSS
-            <p>
-              <p class="tisite">Crafty Sphere</p>
-              <p>Vainqueur challenge équipe interpromo</p>
-        </div>
-
-        <div class="clearfix"></div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <a href="http://sax-group.herokuapp.com/" target="_blank" class="portfolio-box">
@@ -178,39 +183,45 @@
           <p class="tisite">Random group</p>
         </div>
 
+
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <a href="http://francoisdefever.github.io/startup-weekendrbx016/index.html" target="_blank" class="portfolio-box">
-            <img src="img/portfolio/yestour.png" class="img-responsive" alt="">
+          <a href="http://akvince.github.io/chgit/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/chgit.jpg" class="img-responsive" alt="">
           </a>
           <p>HTML/CSS</p>
-          <p class="tisite">YES Tour Africa</p>
-          <p>Coup de coeur startup week end Roubaix 2016</p>
+          <p class="tisite">Cheat sheet git</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+          <a href="http://akvince.github.io/termunix/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/termunix.jpg" class="img-responsive" alt="">
+          </a>
+          <p>HTML/CSS</p>
+          <p class="tisite">Cheat sheet terminal</p>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <a href="http://akvince.github.io/racunix/" target="_blank" class="portfolio-box">
+            <img src="img/portfolio/racunix.jpg" class="img-responsive" alt="">
+          </a>
+          <p>HTML/CSS</p>
+          <p class="tisite">Cheat sheet unix</p>
         </div>
 
       </div>
     </div>
     <hr>
 
-    <!-- =======================================A propos======================================== -->
-
-    <div id="apropos" class="apropos">
-      <h4>A propos</h4>
-      <h5>Qui suis-je?</h5>
-      <p>
-        Développeur front-end auto formé a Simplon Roubaix, attiré par les métiers du numérique et les nouvelles technologie, Simplon m'a permis d'apprendre et d'échangé sur ce domaine, ayant pu travailler sur des techno comme HTML5, CSS3, javascripts, j'ai aussi
-        eu la chance de découvrir le back-end avec Ruby et Ruby on rails. Voulant me spécialisé en Front je me suis mis a Sass et Compass pour pouvoir améliorer mon travail. Passioné aussi par la photographie et attiré par le graphisme, j'aimerai sur
-        le long termes me spécialisé sur le web design.
-      </p>
-      <div class="CV">
-        <button type="button" name="button"><a href="http://akvince.github.io/curriculum-vitae/" target="_blank">CV</a></button>
-      </div>
-      <hr>
-    </div>
-
     <!--===========================Contact======================-->
 
     <div id="contact" class="contact">
       <div class="row">
+        <h4>contact</h4>
+        <div class="mail">
+          <a href="mailto:deflandre.vincent@gmail.com">deflandre.vincent@gmail.com</A>
+        </div>
         <div class="social">
           <p>
             Me suivre sur les réseaux sociaux
@@ -231,7 +242,22 @@
       </p>
     </footer>
 
+    <a href="#home" class="totop"><i class="fa fa-chevron-up fa-4x"></i></a>
+
   </div>
+
+  <!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 </body>
 
 </html>
